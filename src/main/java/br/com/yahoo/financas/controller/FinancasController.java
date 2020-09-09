@@ -12,7 +12,7 @@ import br.com.yahoo.financas.service.FinancasService;
 import br.com.yahoo.financas.util.Util;
 
 @RestController
-@RequestMapping("/quotes")
+@RequestMapping("/cotacao")
 public class FinancasController {
 
 	@Autowired
